@@ -24,13 +24,13 @@ console.log("Mark has a mass of" + " " + markMass + " " + "kg" + " " + "and his 
  + " " + johnHeight + " Meters" + " " + ": his BMI is " + bmiJohn + ".");  
 
 /* We want to know if Bmi of Mark is higher than Bmi of Mark. For this, we have to 
-create a Boolean, and store the result in our new variable called "isBmiHigher" */ 
+create a Boolean, and store the result in our new variable called "markHigherBmi" */ 
 
-var isBmiHigher;
+var markHigherBmi;
 
-isBmiHigher = bmiMark > bmiJohn;
+markHigherBmi = bmiMark > bmiJohn;
 
 /* We display the result of our famous answer via console.log : Is Mark's Bmi is higher 
 than John's Bmi ? And the result of the Boolean is true ! */
 
-console.log("Is Mark's Bmi higher than John's Bmi ? : " + isBmiHigher);
+console.log("Is Mark's Bmi higher than John's Bmi ? : " + markHigherBmi);
